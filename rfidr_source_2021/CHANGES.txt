@@ -12,3 +12,7 @@ for applicable conditions.
 01-07-2021: 
 Author: E. Keehr (Superlative Semiconductor LLC)
 Changes: Initial Open Source Release
+
+09-09-2021: 
+Author: E. Keehr (Superlative Semiconductor LLC)
+Changes: Add files required for FPGA Verilog simulation
