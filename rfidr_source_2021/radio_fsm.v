@@ -59,9 +59,9 @@ module    radio_fsm
         
         // Inputs
         input    wire                go,                    // *** From top-level FSM
-        input    wire                use_select_pkt,        // From spi slave, synced.
-        input    wire                alt_radio_fsm_loop,    // From spi slave, synced.
-        input    wire                end_radio_fsm_loop,    //    From spi_slave, synced.
+        input    wire                use_select_pkt,        // From spi prphrl, synced.
+        input    wire                alt_radio_fsm_loop,    // From spi prphrl, synced.
+        input    wire                end_radio_fsm_loop,    //    From spi_prphrl, synced.
         input    wire                kill_write_pkt,        //    Write packet is to be treated as a kill
         input    wire    [1:0]       mode,                  //    *** From memory-mapped registers interfacing with SPI
         input    wire                rx_done,               //    The RX has completed its reception, made valid its indicators, and stored its results in SRAM
